@@ -1,0 +1,84 @@
+
+
+.wraper {
+max-width: 73.14rem;
+min-width: 54.84rem;
+margin: auto;
+
+
+}
+.space-block {
+
+}
+@media (min-width:54.85rem) {
+.top-block {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fafafafa;
+	1box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+
+}
+.top-block__logo {
+
+}
+.top-block__title {
+	font-size: 4rem;
+	
+	text-align: center;
+	color: #044e87;
+
+
+}
+
+.top-block__top-menu {
+	font-size: 2rem;
+	color: #044e87;
+
+}
+.tel {
+
+	margin: 20px 20px  0 0;
+}
+
+.tel:hover{
+	color: #00A800FF;
+}
+
+.content {margin:10px;
+	min-height: 100vh;
+1border: 1px solid #0000ff;
+background-image: url(../images/fon.jpg);
+background-repeat: no-repeat;
+}
+.ferst {
+
+}
+.second {
+
+}
+
+
+.footer {
+	background-color: #044e87;
+	height: 150px;
+
+
+}
+.footer-space {
+
+}
+.social {
+
+}
+
+.contact {
+
+}
+.autor {
+
+}
