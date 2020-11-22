@@ -2,7 +2,8 @@
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 /* стили */
 wrapper{
-	width: 480px;
+	mib-width: 320px;
+	max-width: 480px;
 	margin: auto;
 	background-color: #FFFF00FF;
 }
