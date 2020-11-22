@@ -87,12 +87,14 @@
 }
 
 .ferst { 
+	font-size: calc(1rem + 16 * ((100vw - 320px) / (1280 - 320)));
 	background-color: #00A800FF;
 
 
 }
 .second {
 	background-color:  #E77300FF;
+	font-size: calc(1rem + 16 * ((100vw - 320px) / (1280 - 320)));
 
 }
 
