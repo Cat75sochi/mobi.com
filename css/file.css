@@ -1,18 +1,18 @@
 
 
 .wraper {
-max-width: 73.14rem; /*1024px*/
-min-width: 57.14rem;/*800px*/
-margin: auto;
-background-color: #FFFF00FF;
 
-
-}
-.space-block {
-	background-color: #00FFFF;
-	width: 90%;
+	max-width: 73.14rem; /*1024px*/
+	min-width: 57.14rem;/*800px*/
 	margin: auto;
+	background-color: #FFFF00FF;
+}
 
+.space-block {
+
+	background-color: #00FFFF;
+	margin: 0 15px;
+	
 }
 
 .top-block {
@@ -25,55 +25,61 @@ background-color: #FFFF00FF;
 
 }
 
-
-
 .top-block__logo {
 
 }
+
 .top-block__title {
+
 	font-size: 4rem;
 	background-color: #55AA7F;
 	text-align: center;
 	color: #044e87;
 	flex:1 1 auto;
-
-
 }
 
 .top-block__top-menu {
+
 	font-size: 2rem;
 	color: #044e87;
 	background-color: #AAAAFF;
 
 }
-.tel {
-	background-color: #55AAFF;
 
+.tel {
+
+	background-color: #55AAFF;
 	margin: 20px 20px  0 0;
 }
 
-.tel:hover{
+.tel:hover {
 	color: #00A800FF;
 }
 
-.content {margin:10px;
+.content {
+
+	margin:10px;
 	min-height: 100vh;
-1border: 1px solid #0000ff;
-1background-image: url(../images/fon.jpg);
-background-repeat: no-repeat;
+	1background-image: url(../images/fon.jpg);
+	background-repeat: no-repeat;
+
 }
-.ferst {
+
+.ferst { 
+	background-color: #00A800FF;
+
 
 }
 .second {
+	background-color:  #E77300FF;
 
 }
 
 
 .footer {
+
 	background-color: #044e87;
 	height: 150px;
-
 
 }
 .footer-space {
