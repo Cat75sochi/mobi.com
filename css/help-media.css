@@ -2,16 +2,16 @@
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 /* стили */
 .wrapper{
-	mib-width: 320px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: auto;
 	background-color: #FFFF00FF;
 }
 .space-block {
 
-	background-color: #00FFFF;
+	background-color: #AA00FFFF;
+	min-height: 100vh;
 	margin: 0 15px;
-	
 }
 
 .top-block {
