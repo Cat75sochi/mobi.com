@@ -4,10 +4,14 @@
 max-width: 73.14rem; /*1024px*/
 min-width: 57.14rem;/*800px*/
 margin: auto;
+background-color: #FFFF00FF;
 
 
 }
 .space-block {
+	background-color: #00FFFF;
+	width: 90%;
+	margin: auto;
 
 }
 
@@ -16,8 +20,8 @@ margin: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #fafafafa;
-	1box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+	1background-color: #fafafafa;
+	background-color: #00AA00;
 
 }
 
@@ -28,9 +32,10 @@ margin: auto;
 }
 .top-block__title {
 	font-size: 4rem;
-	
+	background-color: #55AA7F;
 	text-align: center;
 	color: #044e87;
+	flex:1 1 auto;
 
 
 }
@@ -38,9 +43,11 @@ margin: auto;
 .top-block__top-menu {
 	font-size: 2rem;
 	color: #044e87;
+	background-color: #AAAAFF;
 
 }
 .tel {
+	background-color: #55AAFF;
 
 	margin: 20px 20px  0 0;
 }
@@ -52,7 +59,7 @@ margin: auto;
 .content {margin:10px;
 	min-height: 100vh;
 1border: 1px solid #0000ff;
-background-image: url(../images/fon.jpg);
+1background-image: url(../images/fon.jpg);
 background-repeat: no-repeat;
 }
 .ferst {
