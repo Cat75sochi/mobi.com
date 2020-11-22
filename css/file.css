@@ -16,11 +16,14 @@
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: #fafafafa;
-		1background-color: #00AA00;
-
+		
 }
 
 .top-block__logo {
+
+}
+
+.logo {
 
 }
 
@@ -32,6 +35,7 @@
 }
 
 .title {
+	margin: 10px 0 0 0;
 
 	font-size: 4rem;
 	text-align: center;
