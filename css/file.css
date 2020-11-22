@@ -2,7 +2,7 @@
 
 .wraper {
 max-width: 73.14rem;
-min-width: 54.84rem;
+min-width: 55.57rem;
 margin: auto;
 
 
@@ -10,7 +10,7 @@ margin: auto;
 .space-block {
 
 }
-@media (min-width:54.85rem) {
+
 .top-block {
 
 	display: flex;
@@ -22,7 +22,7 @@ margin: auto;
 }
 
 
-}
+
 .top-block__logo {
 
 }
