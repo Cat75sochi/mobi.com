@@ -1,8 +1,8 @@
 
 
 .wraper {
-max-width: 73.14rem;
-min-width: 55.57rem;
+max-width: 73.14rem; /*1024px*/
+min-width: 57.14rem;/*800px*/
 margin: auto;
 
 
