@@ -32,20 +32,21 @@
 	flex:1 1 auto;
 }
 .top-block__top-menu {
-	display:none;
+	display: none;
 
 	font-size: 2rem;
 	color: #044e87;
 	background-color: #AAAAFF;
 
 }
-.tel {
+.tel-center {
 
 	background-color: #55AAFF;
 	margin: 20px 20px  0 0;
+	display: block;
 }
-}
- 
+
+ }
 
  
 /* iPads (вертикальная и горизонтальная) ----------- */
@@ -68,11 +69,6 @@
 
 
 
-
-
-
-
-}
  
 
  

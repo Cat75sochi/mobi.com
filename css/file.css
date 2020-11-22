@@ -31,11 +31,17 @@
 
 .top-block__title {
 
-	font-size: 4rem;
+	
+	flex:1 1 auto;
 	background-color: #55AA7F;
+}
+
+.title {
+
+	font-size: 4rem;
 	text-align: center;
 	color: #044e87;
-	flex:1 1 auto;
+
 }
 
 .top-block__top-menu {
@@ -46,10 +52,18 @@
 
 }
 
-.tel {
+.tel-right {
 
 	background-color: #55AAFF;
 	margin: 20px 20px  0 0;
+	
+}
+
+.tel-center {
+
+	background-color: #55AAFF;
+	margin: 20px 20px  0 0;
+	display: none;
 }
 
 .tel:hover {
