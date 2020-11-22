@@ -44,6 +44,10 @@
 	background-color: #55AAFF;
 	margin: 20px 20px  0 0;
 	display: block;
+	ont-size: 4rem;
+	text-align: center;
+	color: #044e87;
+
 }
 
  }
@@ -54,7 +58,7 @@
 /* стили */
 
 
-.wrapper{
+/*.wrapper{
 	min-width:768px;
 	max-width: 1000px;
 	margin: auto;
@@ -62,7 +66,7 @@
 }
 
 
-}
+}*/
  
 
  
