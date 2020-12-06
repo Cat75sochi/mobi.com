@@ -5,6 +5,7 @@ body {
 
 .wraper {
 	width: 90%;
+	min-width: 320px;
 	margin:auto;
 	
 	background-color: #ffffff
@@ -13,12 +14,11 @@ body {
 .header {
 	background-image: url(../img/header-fon.jpg);
 	background-repeat: repeat-x;
-	width: 90%;
+	width: 100%;
 	min-height: 100px;
 	display: flex;
 	justify-content: space-between;
-	position: fixed;
-	top:0px;
+	
 	
 }
 .nav ul li  {display: inline-block;
@@ -27,7 +27,7 @@ body {
 
 }
 
-@media only screen (max-width: 120px){.nav ul li {display: block;}}
+@media  (max-width: 600px){.nav ul li {display: block;}}
 a{color: #ffffff;}
 .site-name {text-align: center;
 	font-size: 2rem;
@@ -38,9 +38,9 @@ a{color: #ffffff;}
 
 }
 .inner {
-	min-height: 80vh;
+	min-height: 100vh;
 	background-color: #c0c0c0;
-	margin-top: 100px;
+	
 
 
 }
