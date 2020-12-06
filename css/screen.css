@@ -27,7 +27,7 @@ body {
 
 }
 
-@media only screen (){.nav ul li {display: block;}}
+@media only screen (max-width: 120px){.nav ul li {display: block;}}
 a{color: #ffffff;}
 .site-name {text-align: center;
 	font-size: 2rem;
