@@ -37,6 +37,15 @@ a{color: #ffffff;}
 
 
 }
+@media  (max-width: 600px){
+	{{.site-name calc(1.2rem + 0.5 * (100vw/100%))}}
+
+
+
+
+
+
+
 .inner {
 	min-height: 100vh;
 	background-color: #c0c0c0;
