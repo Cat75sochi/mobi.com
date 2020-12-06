@@ -1,94 +1,54 @@
-html,body {
 
-	1width: 100%;
-	1height:100%;
+body { 
 
-}
-
+ }
 
 .wraper {
-	min-width: 320px;
-	max-width: 1568px;
-	border:1px solid #0000ff;
+	width: 90%;
 	margin:auto;
+	
+	background-color: #ffffff
 
 }
-
-.top-block {
+.header {
+	background-image: url(../img/header-fon.jpg);
+	background-repeat: repeat-x;
+	width: 90%;
+	min-height: 100px;
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	top:0px;
 	
 }
-.logo {}
-
-
-.title {
-	font-size:45px;
-	color: #0055FFFF;
-	text-align: center;
-	flex: 1 1 auto;
-	text-shadow: 1px 1px 2px pink;
+.nav ul li  {display: inline-block;
 	
+
+
 }
-@media (min-width: 200px) and (max-width: 319px)
-{.title {font-size: 26px;}}
 
-@media (min-width: 320px) and (max-width: 374px)
-{.title {font-size: 28px;}}
-	
-@media (min-width: 375px) and (max-width: 462px)
-{.title {font-size: 33px;}}
+@media only screen (){.nav ul li {display: block;}}
+a{color: #ffffff;}
+.site-name {text-align: center;
+	font-size: 2rem;
+	 color: #ffffff;
+	  font-weight: 900;
+	  flex:1 1 auto;
 
-
-
-
-.nav-block {
-	
-}
-.menu {
 
 }
 .inner {
-	padding: 0 5px 5px 5px;
-	min-height: 100vh;
-	display: flex;
-	background-image: url(../img/fon500.jpg);
-	background-repeat: no-repeat; 
-	background-position: -7.14rem 14.2rem;
+	min-height: 80vh;
+	background-color: #c0c0c0;
+	margin-top: 100px;
+
+
 }
+.post {font-size: 1.5rem;
 
-.post {
-	font-family: arial;
-	line-height: 1.5;
-	font-size: 1.4rem;
-	1font-size: calc(28px + 17 * (100vw / 568px));
 }
-.contacts {
-	flex: 1 0 10.7rem;
-}
-
-
-img {
-	min-width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contacts {}
+.menu {}
 .footer {
-background-color: #AAFFFFFF;
+	background-image: url(../img/f3.jpeg);
 }
