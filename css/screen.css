@@ -30,19 +30,8 @@ html,body {
 	text-shadow: 1px 1px 2px pink;
 	
 }
-@media (max-width: 320px)
-{
-	
-		.title { 
-			font-size: calc(28px + (17 + 17 * 0.7) * (100vw - 320px) / 568));
-
-
-
-		}
-	
-}
-
-
+@media (min-width: 320px) and (max-width: 375px)
+{.title {font-size: 28px;}}
 
 
 
