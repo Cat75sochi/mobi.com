@@ -36,7 +36,8 @@ html,body {
 @media (min-width: 375px) and (max-width: 414px)
 {.title {font-size: 33px;}}
 
-
+@media (min-width: 375px) and (max-width: 462px)
+{.title {font-size: 33px;}}
 
 
 .nav-block {
