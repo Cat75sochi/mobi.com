@@ -2,6 +2,7 @@ html,body {
 
 	width: 100%;
 	height:100%;
+
 }
 
 
@@ -19,13 +20,32 @@ html,body {
 	
 }
 .logo {}
+
+
 .title {
-	font-size:3.21rem;
+	font-size:45px;
 	color: #0055FFFF;
 	text-align: center;
-	flex: 1 0 auto;
+	flex: 1 1 auto;
 	text-shadow: 1px 1px 2px pink;
+	
 }
+@media (max-width: 320px)
+{
+	
+		.title { 
+			font-size: calc(28px + (17 + 17 * 0.7) * (100vw - 320px) / 568));
+
+
+
+		}
+	
+}
+
+
+
+
+
 .nav-block {
 	background-color: #AAFFFFFF;
 }
@@ -45,6 +65,7 @@ html,body {
 	font-family: arial;
 	line-height: 1.5;
 	font-size: 1.4rem;
+	1font-size: calc(28px + 17 * (100vw / 568px));
 }
 .contacts {
 	flex: 1 0 10.7rem;
