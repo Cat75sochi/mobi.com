@@ -34,6 +34,7 @@ a{color: #ffffff;}
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
+	 white-space: nowrap;
 
 
 }
