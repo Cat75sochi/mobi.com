@@ -27,7 +27,7 @@ body {
 
 }
 
-@media  (max-width: 600px){.nav ul li {display: block;}}
+@media  (max-width: 500px){.nav ul li {display: block;}}
 a{color: #ffffff;}
 .site-name {text-align: center;
 	font-size: 2rem;
