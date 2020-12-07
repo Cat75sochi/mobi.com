@@ -48,11 +48,14 @@ a{
 
 
 }
-@media  (max-width: 600px)
+@media (max-width: 320px){
+	
+	
+/*@media  (max-width: 600px)
 	{
 		.site-name {font-size:  calc (1rem + 0.5 * (100vw/100%)); }
 	
-	}
+	}*/
 
 
 
