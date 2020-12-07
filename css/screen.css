@@ -37,7 +37,7 @@ body {
 
 a{color: #ffffff;}
 .site-name {text-align: center;
-	font-size: 2rem;
+	font-size: calc (2rem + 1vw);
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
