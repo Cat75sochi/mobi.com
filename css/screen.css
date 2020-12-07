@@ -35,9 +35,12 @@ body {
 
 
 
-a{color: #ffffff;}
+a{
+	: #ffffff;
+}
+
 .site-name {text-align: center;
-	font-size: calc (2rem + 1vw);
+	font-size: calc(2rem + 1vw);
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
