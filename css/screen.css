@@ -1,5 +1,5 @@
 
-body { 
+body { width: 100%;}
 
  }
 
@@ -24,7 +24,7 @@ body {
 	  font-weight: 900;
 	  flex:1 0 auto;
 	 white-space: nowrap;
-	 font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
+	 font-size: -webkit-calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
 }
 
 
@@ -40,8 +40,7 @@ body {
 
 }
 .post {
-font-size: 18px;
-font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
+font-size: -webkit-calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
 
 
 }
