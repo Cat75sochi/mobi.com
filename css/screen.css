@@ -96,13 +96,28 @@ min-height: 100vh;
 	line-height: 1.5;
 	font-family: arial;
 	color: #585858;
-
-
-	font-size: -webkit-calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
+		font-size: -webkit-calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
 	font-size: calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
 	padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
 
+
+
 }
+
+ .post::first-letter {
+    font-size: 3em; /* Размер буквы */
+    color:#0095b6;/* Цвет буквы */
+       margin: 0 4px 2px 0; /* Отступы вокруг буквы */
+   }
+.post::first-line{
+
+font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1600 - 320)));
+
+}
+p {
+	margin-top: calc(5px + (15 - 5) * ((100vw - 320px) / (1600 - 320)));
+}
+
 .contacts {}
 
 .footer {
