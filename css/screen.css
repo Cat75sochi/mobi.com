@@ -4,39 +4,18 @@ body {
  }
 
 .wraper {
-	width: 90%;
+        max-width:1320px;
 	min-width: 320px;
 	margin:auto;
 	
-	background-color: #ffffff
 
 }
 .header {
 	background-image: url(../img/header-fon.jpg);
 	background-repeat: repeat-x;
-	width: 100%;
 	min-height: 100px;
 	display: flex;
 	justify-content: space-between;
-	
-	
-}
-.nav ul li  {display: inline-block;
-	
-
-
-}
-
-@media  (max-width: 900px){
-	.nav ul li {
-		display: block;
-	}
-}
-
-
-
-a{color:#ffffff;
-	
 }
 
 .site-name {
@@ -46,17 +25,7 @@ a{color:#ffffff;
 	  flex:1 0 auto;
 	 white-space: nowrap;
 	 font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
-
-
 }
-/*@media (max-width: 320px){.site-name {font-size:1rem;}}*/
-	
-	
-/*@media  (max-width: 600px)
-	{
-		.site-name {font-size:  calc (1rem + 0.5 * (100vw/100%)); }
-	
-	}*/
 
 
 
