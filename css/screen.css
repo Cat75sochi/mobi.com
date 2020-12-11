@@ -70,7 +70,8 @@ a{color:#ffffff;
 
 
 }
-.post {font-size: 1.5rem;
+.post {font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
+
 
 }
 .contacts {}
