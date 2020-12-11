@@ -40,12 +40,12 @@ a{color:#ffffff;
 }
 
 .site-name {text-align: center;
-	font-size: calc(2rem + 1vw);
+	
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
 	 white-space: nowrap;
-	font-size: calc(14px + (28px - 14) * (100vw - 320px) / (1320 - 320)));
+	font-size: calc(18px + (28 - 18) * (100vw - 320px) / (1320 - 320)));
 
 
 }
