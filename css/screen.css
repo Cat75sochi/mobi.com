@@ -39,7 +39,9 @@ body {
 
 
 }
-.post {font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
+.post {
+font-size: 18px;
+font-size: calc(18px + (40 - 18) * (100vw - 320px) / (1320 - 320)));
 
 
 }
