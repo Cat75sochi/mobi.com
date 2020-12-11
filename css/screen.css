@@ -1,30 +1,34 @@
-
-body { width: 100%;}
-
- }
-
 .wraper {
-        max-width:1320px;
 	min-width: 320px;
-	margin:auto;
-	
+	max-width: 1600px;
+	margin-left: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
+	margin-right: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
+	margin-top: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
+
 
 }
+
+
 .header {
-	background-image: url(../img/header-fon.jpg);
-	background-repeat: repeat-x;
-	min-height: 100px;
-	display: flex;
-	justify-content: space-between;
+	background-image: url(../img/header-fon.png);
+	text-shadow: 0.21rem 0.21rem #3E3E3EFF;
+	width: 100%;
+	min-height: calc(45px + (100 - 45) * ((100vw - 320px) / (1600 - 320)));
+	padding: calc(4px + (10 - 4) * ((100vw - 320px) / (1600 - 320)));
+	margin-bottom: calc(5px + (10 - 5) * ((100vw - 320px) / (1600 - 320)));
+	
+	
 }
 
-.site-name {
-         text-align: center;
+
+
+.site-name { 
+	text-align: center;
+	font-size: calc(28px + (50 - 28) * ((100vw - 320px) / (1600 - 320)));
 	 color: #ffffff;
 	  font-weight: 900;
-	  flex:1 0 auto;
-	 white-space: nowrap;
-	 font-size: calc(18px + (50 - 25) * ((100vw - 320px) / (1320 - 320)));
+	  white-space: nowrap;
+
 }
 
 
@@ -32,20 +36,60 @@ body { width: 100%;}
 
 
 
-.inner {
-	min-height: 100vh;
-	background-color: #c0c0c0;
+
+
+
+.nav {
+	}
+
+
+.menu-list  { 
+background-color: #01011a;
+padding:  calc(3px + (5 - 3) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+
+.menu-list  ul li  { 
+	display: inline-block;
+	margin-right: calc(10px + (20 - 10) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+.menu-list  ul li a  { 
+	color: #ffffff;
+    font-family: arial;
+	font-size: calc(11px + (20 - 11) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+.menu-list  ul li a:hover  { 
+	color: #ff0000;
+	text-decoration: underline;
+
+}
+
+
+
+
 	
-
+.inner {
+min-height: 100vh;
 
 }
-.post {
-font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1320 - 320)));
 
+
+
+.post {
+
+
+	font-size: -webkit-calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
+	font-size: calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
+	padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
 
 }
 .contacts {}
-.menu {}
+
 .footer {
 	background-image: url(../img/f3.jpeg);
 }
