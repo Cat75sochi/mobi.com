@@ -39,8 +39,8 @@ a{color:#ffffff;
 	
 }
 
-.site-name {text-align: center;
-	
+.site-name {
+         text-align: center;
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
