@@ -87,10 +87,13 @@ padding:  calc(3px + (5 - 3) * ((100vw - 320px) / (1600 - 320)));
 	
 .inner {
 min-height: 100vh;
-background-image: url(../img/fon500.jpg);
+background-image: url(../img/fon500.png);
 background-repeat: no-repeat;
 background-position:calc(50px + (800 - 50) * ((100vw - 320px) / (1600 - 320)));
 }
+
+
+
 
 
 
