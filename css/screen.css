@@ -39,13 +39,13 @@ a{color:#ffffff;
 	
 }
 
-.site-name {text-align: center;
-	
+.site-name {
+         text-align: center;
 	 color: #ffffff;
 	  font-weight: 900;
 	  flex:1 0 auto;
 	 white-space: nowrap;
-	font-size: calc(18px + (28 - 18) * (100vw - 320px) / (1320 - 320)));
+	 font-size: calc(18px + (28 - 18) * (100vw - 320px) / (1320 - 320)));
 
 
 }
