@@ -44,7 +44,7 @@
 
 
 .menu-list  { 
-background-color: #01011a;
+background-color:#585858;
 padding:  calc(3px + (5 - 3) * ((100vw - 320px) / (1600 - 320)));
 
 }
