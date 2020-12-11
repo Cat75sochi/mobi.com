@@ -115,7 +115,7 @@ background-position:calc(50px + (800 - 50) * ((100vw - 320px) / (1600 - 320)));
       
    }
 
-.post::first-line{
+strong{
 font-weight: 700;
 font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1600 - 320)));
 
