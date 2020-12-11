@@ -110,7 +110,7 @@ min-height: 100vh;
        margin: 0 4px 2px 0; /* Отступы вокруг буквы */
    }
 .post::first-line{
-
+font-weight: 700;
 font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1600 - 320)));
 
 }
