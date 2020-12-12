@@ -99,6 +99,8 @@ body {  width: 100%;
 	background-image: url(../img/fon500.png);
 	background-repeat: no-repeat;
 	background-position:calc(50px + (800 - 50) * ((100vw - 320px) / (1600 - 320)));
+	display: flex;
+	flex-wrap: wrap
 }
 
 
@@ -106,7 +108,7 @@ body {  width: 100%;
 	line-height: 1.5;
 	font-family:Gardens CM;
 	letter-spacing: 2px;
-	color: #424242;
+	color: #282828;
 	
 	font-size: calc(16px + (25 - 16) * ((100vw - 320px) / (1600 - 320)));
 	padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
@@ -131,7 +133,15 @@ p {
 
 }
 
-.contacts {}
+.p-green { 
+color: #0095b6;
+ }
+
+.contacts {
+
+	font-size: calc(16px + (25 - 16) * ((100vw - 320px) / (1600 - 320)));
+	padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
 
 .footer {
 	background-image: url(../img/f3.jpeg);
