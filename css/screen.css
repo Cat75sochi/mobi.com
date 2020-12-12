@@ -106,18 +106,17 @@ body {  width: 100%;
 	line-height: 1.5;
 	font-family:Gardens CM;
 	letter-spacing: 2px;
-	color: #585858;
-	font-size: -webkit-calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
-	font-size: calc(14px + (21 - 14) * ((100vw - 320px) / (1600 - 320)));
+	color: #424242;
+	
+	font-size: calc(16px + (25 - 16) * ((100vw - 320px) / (1600 - 320)));
 	padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));
 
 }
 
 .post::first-letter {
-    font-size: 3em; /* Размер буквы */
+    font-size: 3em; 
     color:#0095b6;
-    font-family:Twilight;/* Цвет буквы */
-      
+    font-family:Twilight;
    }
 
 strong {
