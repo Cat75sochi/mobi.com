@@ -1,0 +1,1 @@
+document.querySelector('.menu').classList.toggle("animate");
